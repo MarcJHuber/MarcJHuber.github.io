@@ -1,9 +1,7 @@
 #!/usr/bin/perl -w
-#
 # git wrapper for automatically creating and commiting the LAST_COMMIT file on push
 #
 # Author: Marc.Huber@web.de
-#
 
 use strict;
 my $out = "LAST_COMMIT";
