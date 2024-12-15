@@ -18,7 +18,7 @@ if ($#ARGV > -1 && $ARGV[0] eq "push") {
 	open OUT, ">$out";
 	print OUT $gl, "\n";
 	close OUT;
-	system("git add $out && git commit -m \"$out: auto-updated by https://github.com/MarcJHuber/MarcJHuber.github.io/blob/main/git\"");
+	system("git add $out && git commit -m \"$out: auto-updated using https://github.com/MarcJHuber/MarcJHuber.github.io/blob/main/git\"");
 }
 
 system("/usr/bin/git", @ARGV);
